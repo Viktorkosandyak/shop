@@ -12,25 +12,27 @@ a{
 	transition: all 0.2s;
 }
 
-.header{
+header{
 	width: 100%;
 	height: 70px;
 	background: #2b2b2b;
+	position: fixed;
+	left: 0px;
+	top: 0px;
 }
 
 .wrapper{
-	width: 1140px;
-	margin: 0 auto;
-	display: block;
+	width: 1340px;
+	margin: 0px auto;	
 }
 
-				/**HEADER BEGIN**/
-header{
+				/**HEADER BEGIN**/				
+.header{
 	background: #2b2b2b;
 	height: 70px;
 }
 
-header h1{
+.header h1{
 	float: left;
 	margin: 12px 0 0 0;
 	text-transform: uppercase;
@@ -40,29 +42,105 @@ header h1{
 	height: 52px;
 }
 
-nav{
+.header nav{
 	float: right; 
 }
 
-nav li{
+.header nav li{
 	float: right;
 	margin: 25px 30px 0 10px;
 }
 
-nav li a{
+.header nav li a{
 	color: white;
 	font-weight:300;
 	font-size: 16px;
 	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-nav li a:hover{
+.header nav li a:hover{
 	background: white;
 	color: #0A8FD5;
+}
+
+					/**HEADER END**/
+.sectionfull{
+background: yellow;
+width: 100%;
+height: 100%;
+margin-top: 70px;
+margin-bottom: 50px;
+
+
+}
+.sectiontop{
+	background: gray;
+	width:1340px;
+	height: 100%;
+	text-align: center; 
+	padding: 70px 0px 70px 0px;
+	margin: 0px auto;	
+
+}
+.boldig{
+	 color: maroon; 
+    font-weight: 900; 
+}
+
+.sectionbot{
+	background: blue;
+	width:1340px;
+	height: 100%;
+	text-align: center; 
+	padding: 70px 0px 70px 0px;
+	margin: 0px auto;
+}
+
+footer{
+	background: green;
+	height: 50px;
+	width: 100%;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+}
+.footer{
+	background: red;
+	width:1340px;
+	height: 100%;
+	margin: 0px auto;
+}
+h2{
+	 color: maroon; 
+    font-weight: 900; 
+    float: left;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.footer nav{
+	float: right; 
+	margin-right: 70px;
+}
+
+.footer nav li{
+	float: right;
+	margin: 15px 30px 10px 10px;
+}
+
+.footer nav li a{
+	color: black;
+	font-weight:400;
+	font-size: 16px;
+	font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.footer nav li a:hover{
+	background: white;
+	color: black;
 	border-radius: 4px;
 	padding-top: 19px;
 	padding-bottom: 19px;
 	padding-left: 8px;
 	padding-right: 8px;
 }
-						/**HEADER END**/
